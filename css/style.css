@@ -2,39 +2,66 @@ html {
     font-family: 'TT Lakes', Arial, sans-serif;
 }
 
+@media screen and (min-width: 319px) {
+    .menu-services {
+        width: 320px;
+        position: fixed;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0 24px;
+    }
+
+    .menu-services__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        min-height: 88px;
+    }
+
+    .menu-services__button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: #FF3E79;
+    }
+
+    .menu-services__logo {
+        width: 91px;
+        flex-grow: 1;
+    }
+
+    .services-navigation {
+
+    }
+}
+
 
 
 /* FONTS */
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Bold.eot');
-    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
-        url('../fonts/TTlakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/TTlakes/TTLakes-Bold.woff') format('woff'),
-        url('../fonts/TTlakes/TTLakes-Bold.ttf') format('truetype');
+    src: url('../fonts/TTlakes/TTLakes-Bold.ttf') format("truetype");;
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Medium.eot');
-    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-        url('../fonts/TTlakes/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/TTlakes/TTLakes-Medium.woff') format('woff'),
-        url('../fonts/TTlakes/TTLakes-Medium.ttf') format('truetype');
+    src: url('../fonts/TTlakes/TTLakes-Medium.ttf') format("truetype");;
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Regular.eot');
-    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
-        url('../fonts/TTlakes/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/TTlakes/TTLakes-Regular.woff') format('woff'),
-        url('../fonts/TTlakes/TTLakes-Regular.ttf') format('truetype');
+    src: url('../fonts/TTlakes/TTLakes-Regular.ttf') format("truetype");;
     font-weight: normal;
     font-style: normal;
 }
