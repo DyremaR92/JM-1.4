@@ -5,10 +5,12 @@ html {
 @media screen and (min-width: 319px) {
     .menu-services {
         width: 320px;
+        height: 100vh;
         position: fixed;
         left: 0;
         display: flex;
         flex-direction: column;
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
     }
 
     .container {
@@ -19,6 +21,7 @@ html {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
         min-height: 88px;
     }
@@ -29,11 +32,28 @@ html {
         border: none;
         border-radius: 50%;
         background-color: #FF3E79;
+        flex-grow: 0;
     }
 
     .menu-services__logo {
-        width: 91px;
-        flex-grow: 1;
+        max-width: 91px;
+        
+    }
+
+    .header__element {
+        flex-grow: .6;
+    }
+
+    .close-button {
+        background-image: url('../icons/menu-services/close.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .phone-button {
+        background-image: url('../icons/menu-services/search.svg');
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .services-navigation {
