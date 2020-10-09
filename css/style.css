@@ -26,7 +26,7 @@ html {
         min-height: 88px;
     }
 
-    .menu-services__button {
+    .button__options {
         width: 40px;
         height: 40px;
         border: none;
@@ -37,11 +37,10 @@ html {
 
     .menu-services__logo {
         max-width: 91px;
-        
     }
 
-    .header__element {
-        flex-grow: .6;
+    .header__logo {
+        flex-grow: .7;
     }
 
     .close-button {
@@ -50,14 +49,14 @@ html {
         background-repeat: no-repeat;
     }
 
-    .phone-button {
+    .search-button {
         background-image: url('../icons/menu-services/search.svg');
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .menu-services__navigation {
-
+        min-height: 600px;
     }
 
     .services-navigation {
@@ -68,15 +67,20 @@ html {
 
     .services-navigation__item {
         padding: 16px 0;
-        transition: 0.7s opacity ease;
+        transition: 0.8s opacity ease;
+        font-weight: 500;
     }
 
     .services-navigation__item:hover {
-        opacity: 0.5;
+        opacity: 0.6;
     }
 
-    .services-navigation__item--active {
-        
+    .services-navigation__item--active::before {
+        content: '';
+        position: absolute;
+        height: 32px;
+        transform: translate(-24px, -4px);
+        border-left: 4px solid #41F6D7;
     }
 
     .services-navigation__link {
@@ -86,6 +90,27 @@ html {
         line-height: 24px;
         letter-spacing: -0.2px;
         text-align: left;
+    }
+
+    .services-navigation__link--active {
+        color: #7E7E82;
+    }
+
+    .menu-services__footer {
+    }
+    .footer__buttons {
+    }
+    .phone-button {
+    }
+    .chat-button {
+    }
+    .person-button {
+    }
+    .footer__email {
+    }
+    .footer__phone {
+    }
+    .footer__lang {
     }
 }
 
