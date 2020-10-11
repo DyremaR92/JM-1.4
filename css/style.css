@@ -151,14 +151,20 @@ html {
         flex-grow: 0.6;
     }
     .footer__lang {
-        
+        display: flex;
     }
 
     .button__lang {
-
+        border: none;
+        cursor: pointer;
     }
+
+    .button__lang:hover {
+        opacity: 0.8;
+    }
+
     .button__lang--active {
-        
+        color: #7E7E82;
     }
 }
 
