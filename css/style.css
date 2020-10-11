@@ -174,21 +174,21 @@ html {
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Bold.ttf');
+    src: url('../fonts/TTlakes/TTLakes-Bold.woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Medium.ttf');
+    src: url('../fonts/TTlakes/TTLakes-Medium.woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Regular.ttf');
+    src: url('../fonts/TTlakes/TTLakes-Regular.woff');
     font-weight: normal;
     font-style: normal;
 }
