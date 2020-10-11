@@ -157,6 +157,7 @@ html {
     .button__lang {
         border: none;
         cursor: pointer;
+        background-color: #fff;
     }
 
     .button__lang:hover {
@@ -174,21 +175,21 @@ html {
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Bold.ttf') format("truetype");;
+    src: url('../fonts/TTlakes/TTLakes-Bold.ttf') format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Medium.ttf') format("truetype");;
+    src: url('../fonts/TTlakes/TTLakes-Medium.ttf') format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../fonts/TTlakes/TTLakes-Regular.ttf') format("truetype");;
+    src: url('../fonts/TTlakes/TTLakes-Regular.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
