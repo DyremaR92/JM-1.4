@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,68 +8,82 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <aside>
-        <div class="menu-services">
-            <div class="container">
-                <div class="menu-services__header">
-                    <button class="button__options close-button"></button>
-                    <div class="header__logo">
-                        <img class="menu-services__logo" src="icons/menu-services/logo.png" alt="CPS" >
-                    </div>
-                    
-                    <button class="button__options search-button"></button>
-                </div>            
+    <div class="menu-services">
+        <div class="menu-services__header">
+            <div class="header__button">
+                <button class="button-options close-button"></button>
+            </div>
             
-                <nav>
-                    <div class="menu-services__navigation services-navigation">
-                        <div class="services-navigation__item services-navigation__item--active">
-                            <a class="services-navigation__link services-navigation__link--active" href="#">Ремонт техники</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Услуги и сервисы</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Корпоративным клиентам</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Продавцам техники</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Партнерам</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Производителям</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Наши сервисные центры</a>
-                        </div>
-                        <div class="services-navigation__item">
-                            <a class="services-navigation__link" href="#">Контакты</a>
-                        </div>
-                    </div>
-                </nav>
-                
-                <div class="menu-services__footer">
-                    <div class="footer__buttons">
-                        <button class="button__options phone-button"></button>
-                        <button class="button__options chat-button"></button>
-                        <button class="button__options person-button"></button>
-                    </div>
-                    <div class="footer__email">
-                        mail@cps.com
-                    </div>
-                    <div class="footer__phone">
-                        8 800 890 8900
-                    </div>
-                    <div class="footer__lang">
-                        <button class="button__lang button__lang--active">RU</button>
-                        <button class="button__lang">EN</button>
-                        <button class="button__lang">CH</button>
-                    </div>
+            <div class="header__logo">
+                <a href="" class="header__logo-link">
+                    <img class="menu-services__logo" src="icons/menu-services/logo.png" alt="CPS" >
+                </a>
+            </div>
+            
+            <div class="header__button">
+                <button class="button-options search-button"></button>
+            </div>
+            
+        </div>            
+    
+        <nav class="menu-services__navigation services-navigation">
+            <div class="services-navigation__item services-navigation__item--active">
+                <a class="services-navigation__link services-navigation__link--active" href="#">Ремонт техники</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Услуги и сервисы</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Корпоративным клиентам</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Продавцам техники</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Партнерам</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Производителям</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Наши сервисные центры</a>
+            </div>
+            <div class="services-navigation__item">
+                <a class="services-navigation__link" href="#">Контакты</a>
+            </div>
+        </nav>
+        
+        <div class="menu-services__footer">
+            <div class="footer__buttons">
+                <div class="footer__button">
+                    <button class="button-options phone-button"></button>
+                </div>
+                <div class="footer__button">
+                    <button class="button-options chat-button"></button>
+                </div>
+                <div class="footer__button">
+                    <button class="button-options person-button"></button>
+                </div>
+            </div>
+            <a class="footer__email" href="mailto:mail@cps.com">
+                mail@cps.com
+            </a>
+            <a class="footer__phone" href="tel:+78008908900">
+                8 800 890 8900
+            </a>
+            <div class="footer__lang-buttons">
+                <div class="footer__lang-btn">
+                    <button class="button-lang button__lang--active">RU</button>
+                </div>
+                <div class="footer__lang-btn">
+                    <button class="button-lang">EN</button>
+                </div>
+                <div class="footer__lang-btn">
+                    <button class="button-lang">CH</button>
                 </div>
             </div>
         </div>
-    </aside>
+    </div>
     
 </body>
 </html>
